@@ -36,12 +36,12 @@ operations = {
 
 def calculator():
     """This stores the last calculated value and continues to calculation. Else, the function uses recursion to start a fresh calculation."""
-    num1 = int(input("what is the first number?: "))
+    num1 = float(input("what is the first number?: "))
     for symbl in operations:
         print(symbl)
     should_continue = True
     while should_continue:
-        num2 = int(input("what is the next number?: "))
+        num2 = float(input("what is the next number?: "))
         operation_sym = input("Pick an operations: ")
         calculation_func = operations[operation_sym]
         answer = calculation_func(num1, num2)
