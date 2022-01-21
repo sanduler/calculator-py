@@ -31,7 +31,7 @@
 <h3 align="center">Simple Calculator</h3>
 
   <p align="center">
-    A simple calculator using the basic calculator operations including multiplications, addition, subtraction, and division.
+    A simple calculator using the basic calculator operations including multiplications, addition, subtraction, and division. Each operations is subdivided in the respective functions. The user can continue the calculation and keep the results saved for the next calculation or start a fresh calculations through the use of recursion.
     <br />
   </p>
 </div>
@@ -152,4 +152,5 @@ Project Link: [https://github.com/sanduler/calculator-py](https://github.com/san
 [license-url]: https://github.com/sanduler/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/diagram.png
+
+<!-- [product-screenshot]: img/diagram.png -->
