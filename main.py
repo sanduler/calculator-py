@@ -48,7 +48,7 @@ def calculator():
         print(f"{num1}{operation_sym}{num2} = {answer}")
 
         keep_cal = input(
-            f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation.").lower()
+            f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation.\n").lower()
         if keep_cal == "y":
             num1 = answer
         elif keep_cal == "n":
