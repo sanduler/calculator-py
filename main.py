@@ -24,3 +24,22 @@ def divide(n1, n2):
         return("Undefined")
     else:
         return n1 / n2
+
+
+operations = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide
+}
+
+num1 = int(input("what is the first number?: "))
+num2 = int(input("what is the second number?: "))
+
+for symbl in operations:
+    print(symbl)
+operation_sym = input("Pick an operations from the line above: ")
+
+calculation_func = operations[operation_sym]
+answer = calculation_func(num1, num2)
+print(f"{num1}{operation_sym}{num2} = {answer}")
